@@ -13,5 +13,6 @@ RUN tar -zxvf /jdk-8u201-linux-x64.tar.gz -C /
 ENV JAVA_HOME=/jdk1.8.0_201
 ENV PATH=$PATH:$JAVA_HOME/bin
 ENV CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+ENV DOOP_HOME=/doop
 
 WORKDIR /doop
